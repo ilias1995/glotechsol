@@ -125,7 +125,7 @@ USE_TZ = True
 
 STATIC_URL = '/content/static/'
 MEDIA_URL = '/media/'
-STATIC_ROOT = 'staticfiles'
+STATIC_ROOT = 'content/static/'
 
 # STATICFILES_DIRS = (
 #     join(BASE_DIR, 'content/static/'),
