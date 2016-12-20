@@ -13,8 +13,11 @@ Including another URLconf
     1. Add an import:  from blog import urls as blog_urls
     2. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
-from django.conf.urls import include, url
+from django.conf.urls import include, url, patterns
 from django.contrib import admin
+from django.conf.urls.static import static
+from django.conf import settings
+
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
@@ -33,6 +36,20 @@ urlpatterns = [
     url(r'^lecca/(\d+)/$', 'content.views.lecca'),
     url(r'^(?P<error>\w+)/', 'content.views.get_news'),
     url(r'^$', 'content.views.get_news'),
-]
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) +\
+    static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+if settings.DEBUG:
+    urlpatterns += patterns('',
+            url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
+            url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT})
+    ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) +\
+    static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
+if settings.DEBUG is False:   #if DEBUG is True it will be served automatically
+    urlpatterns += patterns('',
+            url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
+            url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT})
+    ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) +\
+    static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
