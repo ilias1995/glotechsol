@@ -22,7 +22,7 @@ runserver:
 	./manage.py runserver; \
 
 .PHONY: runglobal
-runglobal
+runglobal:
 	$(ACTIVATE); \
 	gunicorn glotechsol.wsgi:application -b 127.0.0.1:8000
 
