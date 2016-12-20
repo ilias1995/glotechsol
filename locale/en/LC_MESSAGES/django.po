@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-06 07:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: glotechsol/settings.py:125
+msgid "English"
+msgstr ""
+
+msgid "Welcome"
+msgstr "Welcome!"
+
+msgid "GoToTop"
+msgstr "Go to top"
+
+msgid "AboutUs"
+msgstr "About us"
+
+msgid "VisitUs"
+msgstr "Visit us"
+
+msgid "Address"
+msgstr "Address"
+
+msgid "AddressTxt"
+msgstr "125/1, Toktogul Street, Bishkek, Kyrgyzstan"
+
+msgid "ContactTxt"
+msgstr "office@glotechsol.com ﻿+996(312)88-19-82"
+
+msgid "Phone"
+msgstr "Phone"
+
+msgid "QuickLinks"
+msgstr "Quick Links"
+
+msgid "Services"
+msgstr "Services"
+
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "FindUsOn"
+msgstr "Find us on"
+
+msgid "AllRightReserved"
+msgstr "All right reserved"
+
+msgid "News"
+msgstr "News"
+
+msgid "LatestNews"
+msgstr "Latest News"
+
+msgid "OurServices"
+msgstr "Our Services"
+
+msgid "TAKE OUR BEST SERVICE"
+msgstr " TAKE OUR BEST SERVICE"
+
+msgid "Our aim your satisfactions"
+msgstr " Our aim your satisfactions"
+
+msgid "Mailing Address"
+msgstr "Mailing Address"
+
+msgid "Opening Hours"
+msgstr "Opening Hours"
+
+msgid "Monday"
+msgstr "Monday"
+
+msgid "Tuesday"
+msgstr "Tuesday"
+
+msgid "Wednesday"
+msgstr "Wednesday"
+
+msgid "Thursday"
+msgstr "Thursday"
+
+msgid "Friday"
+msgstr "Friday"
+
+msgid "Saturday"
+msgstr "Saturday"
+
+msgid "Sunday"
+msgstr "Sunday"
+
+msgid "day off"
+msgstr "day off"
+
+msgid "Email Us"
+msgstr "Email Us"
+
+msgid "name"
+msgstr "name"
+
+msgid "email"
+msgstr "email"
+
+msgid "subject"
+msgstr "subject"
+
+msgid "Send Message"
+msgstr "Send message"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Enter Username"
+msgstr "Enter Username"
+
+msgid "Enter Password"
+msgstr "Enter Password"
+
+msgid "Enter E-mail"
+msgstr "Enter E-mail"
+
+msgid "Re Password"
+msgstr "Re Password"
+
+msgid "Remember me"
+msgstr "Remember me"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Sign up"
+msgstr "Sign up"
+
+msgid "Username or password not correct"
+msgstr "Username or password not correct!"
+
+msgid "Hello"
+msgstr "Hello"
+
+msgid "ADDITIONAL SERVICES"
+msgstr "ADDITIONAL SERVICES"
+
+msgid "Pos-System"
+msgstr "Pos-System"
+
+msgid "Pos-System-TXT"
+msgstr "OS-Terminal - electronic and software technical device for receiving payment cards for payment, it may take a card with a chip, magnetic stripe and contactless cards, as well as other devices that have non-contact pair."
+
+msgid "Online-Booking"
+msgstr "Online booking"
+
+msgid "Online-Booking-TXT"
+msgstr "Online booking — book through the internet, online. It is used in relation to the booking of hotel rooms, tickets (air, rail, bus, etc.), seats in restaurants and theaters, car rental and so on. d."
+
+msgid "Stom-Clinic"
+msgstr "Stom clinic"
+
+msgid "Stom-Clinic-TXT"
+msgstr "Computer software for dentistry, designed to maximize ease the chore doctor associated with the implementation of the basic clinical activities, namely to automate accounting and patient visits, medical records management, provisional appointments, cash flow accounting and other actions."
+
+msgid "Website-Development"
+msgstr "Website Development"
+
+msgid "Website-Development-TXT"
+msgstr "The site includes all necessary modules to get started quickly and take orders."
+
+msgid "Mobile-Applications"
+msgstr "Mobile Applications"
+
+msgid "Mobile-Applications-TXT"
+msgstr "Development of mobile applications of any complexity for Android.Application development interfaces. Publication in the App Store and Play Market."
+
+msgid "Form-Style"
+msgstr "Form Style"
+
+msgid "Form-Style-TXT"
+msgstr "Development and refinement of logos, corporate identity elements. Creating a consumer recognizable visual image of the company."
+
+msgid "All right reserved"
+msgstr "All right reserved"
+
+msgid "Visits"
+msgstr "Visits"
+
+msgid "Views"
+msgstr "Views"
+
+msgid "Lecca"
+msgstr "Logistics Excellence Centre in Central Asia"
+
+
+
+
+
+
+
+

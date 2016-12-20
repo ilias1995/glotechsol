@@ -1,0 +1,365 @@
+﻿{% extends 'index.html' %}
+
+{% block portfolio %}
+{% load staticfiles %}
+<!-- Page banner -->
+<section id="bannerSection" style="background:url({% static 'images/banner/contact.png' %}) no-repeat center center #000;">
+	<div class="container" >	
+		<h1 id="pageTitle">
+			{% load i18n %}
+			{% get_current_language as LANGUAGE_CODE %}
+			{% get_available_languages as LANGUAGES %}
+
+			{% for lang in langs %}
+			{% language lang.language %}
+
+			{% get_current_language as LANGUAGE_CODE %}
+			 {% trans "Portfolio" %}<small>{% trans "Our aim your satisfactions" %}</small>
+
+			{% endlanguage %}
+			{% endfor %}
+
+		<span class="pull-right toolTipgroup">
+			<a href="#" data-placement="top" data-original-title="Find us on via facebook"><img style="width:45px" src="{% static 'images/facebook.png' %}" alt="facebook" title="facebook"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via twitter"><img style="width:45px" src="{% static 'images/twitter.png' %}" alt="twitter" title="twitter"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via youtube"><img style="width:45px" src="{% static 'images/youtube.png' %}" alt="youtube" title="youtube"></a>
+		</span>
+		</h1>
+	</div>
+</section> 
+<!-- Page banner end -->	
+<section id="bodySection">		
+	<div id="wrapper">								
+
+
+<section id="about" class="home-section text-center bg-gray">
+		
+		<div class="heading-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="wow bounceInDown" data-wow-delay="0.4s">
+							<div class="section-heading">
+					<!--		<div class="slogan">  -->
+								<h3>{% trans "ADDITIONAL SERVICES" %}</h3>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+											
+		<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-lg-offset-5">
+						<hr class="marginbot-50">
+					</div>
+				</div>
+			<div class="row">
+			
+				<div  class="span4"><!-- class="col-lg-4 col-sm-4 col-md-17" -->
+					<div class="wow fadeInLeft" data-wow-delay="0.2s">
+						<div class="card-container">
+							<div class="card">
+								<div class="front">
+									<div class="cover">
+										<img src="{% static 'images/portfolio/pos.jpg' %}" />
+									</div>
+									<div class="content">
+										<div class="main"></div>
+										<div class="price">{% trans "Pos-System" %}</div>
+									</div>
+								</div> <!-- end front panel -->
+								<div class="back">
+									<p><label>{% trans "Pos-System" %}</label></p>
+
+						<p>{% trans "Pos-System-TXT" %}</p>
+									
+								</div> <!-- end back panel -->
+							</div> <!-- end card -->
+						</div> <!-- end card-container -->
+					</div>
+				</div>
+							
+				<div  class="span4"><!-- class="jas col-sm-4 col-md-17"  -->
+					<div class="wow fadeInLeft" data-wow-delay="0.2s">
+						<div class="card-container">
+							<div class="card">
+								<div class="front">
+									<div class="cover">
+										<img src="{% static 'images/portfolio/onli.jpg' %}" />
+									</div>
+									<div class="content">
+										<div class="main"></div>
+										<div class="price">{% trans "Online-Booking" %}</div>
+									</div>
+								</div> <!-- end front panel -->
+								<div class="back">
+									<p><label>{% trans "Online-Booking" %}</label></p>
+
+				<p>{% trans "Online-Booking-TXT" %} </p>
+								</div> <!-- end back panel -->
+							</div> <!-- end card -->
+						</div> <!-- end card-container -->
+					</div>
+				</div>
+							
+				<div  class="span4"><!-- class="jas col-sm-4 col-md-17" -->
+					<div class="wow fadeInLeft" data-wow-delay="0.2s">
+						<div class="card-container">
+							<div class="card">
+								<div class="front">
+									<div class="cover">
+										<img src="{% static 'images/portfolio/stom.jpg' %}" />
+									</div>
+									<div class="content">
+										<div class="main"></div>
+										<div class="price">{% trans "Stom-Clinic" %}</div>
+									</div>
+								</div> <!-- end front panel -->
+								<div class="back">
+									<p><label>{% trans "Stom-Clinic" %}</label></p>
+
+										<p>{% trans "Stom-Clinic-TXT" %}</p>
+								</div> <!-- end back panel -->
+							</div> <!-- end card -->
+						</div> <!-- end card-container -->
+					</div>
+				</div>
+							
+				<div  class="span4"><!-- class="jas col-sm-4 col-md-17" -->
+					<div class="wow fadeInLeft" data-wow-delay="0.2s">
+						<div class="card-container">
+							<div class="card">
+								<div class="front">
+									<div class="cover">
+										<img src="{% static 'images/portfolio/viz.jpg' %}" />
+									</div>
+									<div class="content">
+										<div class="main"></div>
+										<div class="price">{% trans "Website-Development" %}</div>
+									</div>
+								</div> <!-- end front panel -->
+								<div class="back">
+									<p><label>{% trans "Website-Development" %}</label></p>
+									<p>{% trans "Website-Development-TXT" %}</p>
+								</div> <!-- end back panel -->
+							</div> <!-- end card -->
+						</div> <!-- end card-container -->
+					</div>
+				</div>	
+						
+				<div  class="span4"><!-- class="jas col-sm-4 col-md-17" -->
+					<div class="wow fadeInLeft" data-wow-delay="0.2s">
+						<div class="card-container">
+							<div class="card">
+								<div class="front">
+									<div class="cover">
+										<img src="{% static 'images/portfolio/mobil.jpg' %}" />
+									</div>
+									<div class="content">
+										<div class="main"></div>
+										<div class="price">{% trans "Mobile-Applications" %}</div>
+									</div>
+								</div> <!-- end front panel -->
+								<div class="back">
+									<p><label>{% trans "Mobile-Applications" %}</label></p>
+									<p>{% trans "Mobile-Applications-TXT" %}</p>
+								</div> <!-- end back panel -->
+							</div> <!-- end card -->
+						</div> <!-- end card-container -->
+					</div>
+				</div>		
+					
+				<div  class="span4"><!-- class="jas col-sm-4 col-md-17" -->
+					<div class="wow fadeInLeft" data-wow-delay="0.2s">
+						<div class="card-container">
+							<div class="card">
+								<div class="front">
+									<div class="cover">
+										<img src="{% static 'images/portfolio/forms.jpg' %}" />
+									</div>
+									<div class="content">
+										<div class="main"></div>
+										<div class="price">{% trans "Form-Style" %}</div>
+									</div>
+								</div> 
+								<div class="back">
+									<p><label>Form-Style</label></p>
+									<p>{% trans "Form-Style-TXT" %}</p>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+				
+
+				
+			</div>		
+		</div>
+	</section>
+
+		
+		
+		</div>
+</section>
+
+
+<style>
+/* entire container, keeps perspective */
+.card-container {
+	  -webkit-perspective: 800px;
+   -moz-perspective: 800px;
+     -o-perspective: 800px;
+        perspective: 800px;
+        margin-bottom: 30px;
+}
+/* flip the pane when hovered */
+.card-container:hover .card, .card-container.hover .card {
+	-webkit-transform: rotateY( 180deg );
+-moz-transform: rotateY( 180deg );
+ -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.card-container.static:hover .card, .card-container.static.hover .card {
+	-webkit-transform: none;
+-moz-transform: none;
+ -o-transform: none;
+    transform: none;
+}
+/* flip speed goes here */
+.card {
+	 -webkit-transition: -webkit-transform .5s;
+   -moz-transition: -moz-transform .5s;
+     -o-transition: -o-transform .5s;
+        transition: transform .5s;
+-webkit-transform-style: preserve-3d;
+   -moz-transform-style: preserve-3d;
+     -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	-webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+     -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #FFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+		-webkit-transform: rotateY( 180deg );
+   -moz-transform: rotateY( 180deg );
+     -o-transform: rotateY( 180deg );
+        transform: rotateY( 180deg );
+        z-index: 3;
+}
+
+/*        Style       */
+
+.card{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 6px;
+    color: #444444;
+}
+
+.card .cover {
+    border-radius: 6px 6px 0 0;
+    height: 250px;
+    overflow: hidden;
+}
+
+.card-container, .front, .back {
+	width: 100%;
+	height: 345px;
+	border-radius: 6px;
+	/*border: 1px solid black;*/
+}
+
+.card-container{
+	height: 345px;
+	float: left;
+	
+	/*border: 1px solid red;*/
+}
+
+.card .content{
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+	/*border: 1px solid #cc0000;*/
+}
+.card .content .main {
+    height: 20px;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+.card .icon_mileage{
+	background-image: url("icons/mileage.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+.card .icon_fuel{
+	background-image: url("icons/fuel.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+.card .icon_gearbox{
+	background-image: url("icons/gearbox.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+.card .icon_power{
+	background-image: url("icons/power.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    line-height: 25px;
+}
+.card .price{
+	color: #389992;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.card .title{
+	text-align: center;
+	padding: 10px 0 0 0;
+	width: 200px;
+}
+
+.card p{
+	line-height: 25px;
+}
+</style>
+	
+	
+	
+	
+	</div>
+	</section>
+{% endblock %}

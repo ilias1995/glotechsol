@@ -1,0 +1,24 @@
+{% extends 'main.html' %}
+{% block top_menu %}
+<div id="topbar">
+    <div id="topnav">
+      <ul>
+        <li class="active"><a href="/">Главная</a></li>
+        {% for category in categories %}
+          <li><a href="#">{{ category.category_name }}</a></li>
+        {% endfor %}
+        <li><a href="pages/full-width.html">Экономика2</a></li>
+        <li><a href="#">Центральная Азия</a>
+          <ul>
+            <li><a href="#">Кыргызстан</a></li>
+            <li><a href="#">Казакстан</a></li>
+            <li><a href="#">Таджикистан</a></li>
+            <li><a href="#">Узбекистан</a></li>
+            <li><a href="#">Туркменистан</a></li>
+
+          </ul>
+        </li>
+        <li class="last"><a href="#">Eng</a></li>
+      </ul>
+    </div>
+{% endblock %}

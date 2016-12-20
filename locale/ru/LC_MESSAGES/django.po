@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-06 07:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: glotechsol/settings.py:125
+msgid "Russian"
+msgstr ""
+
+msgid "Welcome"
+msgstr "Добро пожаловать!"
+
+msgid "GoToTop"
+msgstr "Перейти к началу"
+
+msgid "AboutUs"
+msgstr "О нас"
+
+msgid "VisitUs"
+msgstr "Посетите нас"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "AddressTxt"
+msgstr "ул. Токтогул 125/1, Бишкек, Кыргызстан"
+
+msgid "ContactTxt"
+msgstr "office@glotechsol.com ﻿+996(312)88-19-82"
+
+msgid "Phone"
+msgstr "Тел."
+
+msgid "QuickLinks"
+msgstr "Быстрые ссылки"
+
+msgid "Services"
+msgstr "Сервисы"
+
+msgid "Portfolio"
+msgstr "Портфолио"
+
+msgid "FindUsOn"
+msgstr "Найти нас на"
+
+msgid "AllRightReserved"
+msgstr "Все права защищены"
+
+msgid "LatestNews"
+msgstr "Последние новости"
+
+msgid "News"
+msgstr "Новости"
+
+msgid "OurServices"
+msgstr "Наши услуги"
+
+msgid "TAKE OUR BEST SERVICE"
+msgstr " ПРИМИТЕ НАШЕ ЛУЧШЕЕ ОБСЛУЖИВАНИЕ"
+
+msgid "Our aim your satisfactions"
+msgstr " Наша цель ваших удовлетворений"
+
+msgid "Mailing Address"
+msgstr "Наш адрес"
+
+msgid "Opening Hours"
+msgstr "Часы работы"
+
+msgid "Monday"
+msgstr "Понедельник"
+
+msgid "Tuesday"
+msgstr "Вторник"
+
+msgid "Wednesday"
+msgstr "Среда"
+
+msgid "Thursday"
+msgstr "Четверг"
+
+msgid "Friday"
+msgstr "Пятница"
+
+msgid "Saturday"
+msgstr "Суббота"
+
+msgid "Sunday"
+msgstr "Воскресение"
+
+msgid "day off"
+msgstr "выходной"
+
+msgid "Email Us"
+msgstr "Свяжитесь с нами"
+
+msgid "name"
+msgstr "имя"
+
+msgid "email"
+msgstr "email"
+
+msgid "subject"
+msgstr "тема"
+
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+msgid "Login"
+msgstr "Вход"
+
+msgid "Logout"
+msgstr "Выход"
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Enter Username"
+msgstr "Введите Имя пользователя"
+
+msgid "Enter Password"
+msgstr "Введите Пароль"
+
+msgid "Enter E-mail"
+msgstr "Введите E-mail"
+
+msgid "Re Password"
+msgstr "Повторите пароль"
+
+msgid "Remember me"
+msgstr "Запомни меня"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Sign up"
+msgstr "Регистрация"
+
+msgid "Username or password not correct"
+msgstr "Имя пользоваеля или пароль не правильно!"
+
+msgid "Hello"
+msgstr "Привет"
+
+msgid "ADDITIONAL SERVICES"
+msgstr "ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ"
+
+msgid "Pos-System"
+msgstr "POS-терминал"
+
+msgid "Pos-System-TXT"
+msgstr "POS-терминал — электронное программно-техническое устройство для приема к оплате платежных карт, оно может принимать карты с чипом, магнитной полосой и бесконтактные карты, а также другие устройства, имеющие бесконтактное сопряжение. "
+
+msgid "Online-Booking"
+msgstr "Онлайн-бронирование"
+
+msgid "Online-Booking-TXT"
+msgstr "Онлайн-бронирование — бронирование через Интернет, в интерактивном режиме. Применяется по отношению к бронированию номеров в гостиницах, билетов (авиа, железнодорожных, автобусных и т.п), мест в ресторанах и театрах, прокату автомобилей и т. д."
+
+msgid "Stom-Clinic"
+msgstr "Стоматология"
+
+msgid "Stom-Clinic-TXT"
+msgstr "Компьютерная программа для стоматологии, призванная максимально облегчить рутинную работу врача, связанную с выполнением основной клинической деятельности, а именно автоматизировать учет пациентов и посещений, ведение медицинских карт, предварительную запись на прием, учет движения денежных средств и другие действия."
+
+msgid "Website-Development"
+msgstr "Разработка Web-сайта"
+
+msgid "Website-Development-TXT"
+msgstr "Сайт включает в себя все необходимые модули, чтобы начать работу быстро и принимать заказы."
+
+msgid "Mobile-Applications"
+msgstr "Мобильные приложения"
+
+msgid "Mobile-Applications-TXT"
+msgstr "Разработка мобильных приложений любой сложности для Android. Разработка интерфейсов приложений. Публикация в App Store и Play Market."
+
+msgid "Form-Style"
+msgstr "Фирменный стиль"
+
+msgid "Form-Style-TXT"
+msgstr "Разработка и доработка логотипов, элементов фирменного стиля. Создание узнаваемого потребителями визуального образа компании."
+
+msgid "All right reserved"
+msgstr "Все права защищены"
+
+msgid "Visits"
+msgstr "Посещения"
+
+msgid "Views"
+msgstr "Просмотры"
+
+msgid "Lecca"
+msgstr "Logistics Excellence Centre in Central Asia"

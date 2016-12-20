@@ -1,0 +1,103 @@
+{% extends 'index.html' %}
+
+{% block news %}
+{% load staticfiles %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+
+{% for lang in langs %}
+{% language lang.language %}
+
+{% get_current_language as LANGUAGE_CODE %}
+<section id="bannerSection" style="background:url({% static 'images/banner/blog.png' %}) no-repeat center center #000;">
+	<div class="container" >	
+		<h1 id="pageTitle">{% trans "News" %}
+		<span class="pull-right toolTipgroup">
+			<a href="#" data-placement="top" data-original-title="Find us on via facebook"><img style="width:45px" src="{% static 'images/facebook.png' %}" alt="facebook" title="facebook"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via twitter"><img style="width:45px" src="{% static 'images/twitter.png' %}" alt="twitter" title="twitter"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via youtube"><img style="width:45px" src="{% static 'images/youtube.png' %}" alt="youtube" title="youtube"></a>
+		</span>
+		</h1>
+	</div>
+</section> 
+<!-- Page banner end -->
+<section id="bodySection">
+<div class="container">
+<div class="row">
+<div class="span9">
+{% if news %}
+	{% for new in news %}
+		<div class="">
+			<p><strong>{{ new.title }}</strong></p>
+			<div id="myCarousel" class="carousel slide blogCarousel">
+				<div class="carousel-inner">
+					{% if photos %}
+						{% for photo in photos %}
+							<div  style="text-align:center"  class="item{% if 1 == forloop.counter %} active {% endif %}" >
+								<a href="#" style="display:block; background:url({{ photo }}) no-repeat center center; height:250px; max-height:250px; margin-bottom:18px"></a>
+							</div>
+
+						{% endfor %}
+					{% endif %}
+				</div>
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			</div>
+		{% autoescape off %}
+			<div class="img-none">{{ new.full_text }}</div>
+		{% endautoescape %}
+	{% endfor %}
+{% endif %}
+</div>
+
+
+</div>
+
+
+<!-- Sidebar comumn -->
+
+
+	   <div class="span3">
+			<div class="latest_post">
+				<h2><span>{% trans "LatestNews" %}</span></h2>
+				{% endlanguage %}
+				{% endfor %}
+
+				<div class="latest_post_container">
+
+					  <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
+						  <ul class="latest_postnav">
+							{% if news_menu %}
+								{% for new in news_menu %}
+								  <li>
+									  <div class="media">
+									  	<div class="media-body">
+									  		<a href="/news/{{ new.id }}/"> {{ new.title }}</a><br/><i style="font-size:10px; color: #7e7a7a; float:right;">{{ new.created|date:"c" }}</i>
+										</div>
+								 	 </div>
+								  </li>
+								{% endfor %}
+						    {% endif %}
+						  </ul>
+					 <div id="next-button"><i class="fa  fa-chevron-down"></i></div>
+					</div>
+
+				</div>
+
+
+
+
+
+			</div>
+        </div>
+<!-- End Sidebar comumn -->
+
+
+</div>
+</div>
+</div>
+</section>
+
+
+{% endblock %}

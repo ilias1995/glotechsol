@@ -1,0 +1,280 @@
+﻿<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>GTS</title>
+    {% load staticfiles %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<script type="text/javascript" src="{% static 'js/jquery-1.10.2.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/send_message.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/menu-script.js' %}"></script>
+	<link id="callCss" rel="stylesheet" href="{% static 'current/bootstrap.min.css' %}" type="text/css" media="screen"/>
+	<link href="{% static 'css/bootstrap-responsive.min.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'css/font-awesome.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'css/base.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'css/price.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'css/css-table.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'css/menu-style.css' %}" rel="stylesheet" type="text/css">
+	<link href="{% static 'flags/flags.css' %}" rel="stylesheet" type="text/css">
+    <!-- main site css file -->
+    <link rel="stylesheet" href="{% static 'lightbox/dist/css/lightbox.min.css' %}">
+	<link href="{% static 'sider/style.css' %}" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+	<link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+	<style type="text/css" id="enject"></style>
+
+</head>
+<body>
+<!------ HEADER --------->
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+
+{% for lang in langs %}
+{% language lang.language %}
+
+{% get_current_language as LANGUAGE_CODE %}
+<section id="headerSection">
+	<div class="container">
+
+	<h1><a class="brand" href="index.html"><img src="{% static 'images/logo_GTS.png' %}" class="gts_logo"> </a></h1>
+
+		{% for language in languages %}
+			<form style="border-radius: 0px; line-height: 3.5; float:right;" action="/getlang/{{ language.id }}/" method="post" >
+				 {% csrf_token %}
+
+					<button type="submit">{{ language.language }}</button>
+
+			</form>
+		{% endfor %}
+	    <a class="toggleMenu" href="#">Menu</a>
+		<ul class="nav">
+						{% if menus %}
+							{% for catmenu in catmenus %}
+
+								<li {% if request.GET.active == catmenu.id|stringformat:"d" %}  class="test" {% endif %}><a href="{{ catmenu.link }}?active={{ catmenu.id }}">{{ catmenu.name }}</a>
+									<ul>
+										{% for menu in menus %}
+											{% if menu.cat_id.id == catmenu.id %}
+												<li><a href="{{ menu.link }}{{ menu.id }}/">{{ menu.name }}</a></li>
+											{% endif %}
+										{% endfor %}
+									</ul>
+								</li>
+							{% endfor %}
+						{% endif %}
+						{% if username %}
+							<li><a href="#" style="background-color: green;">{% trans "Hello" %} {{ username }}</a>
+							<ul><li><a href="#" id="alogout" >{% trans "Logout" %} </a></li></ul></li>
+						{% else %}
+							<li><a href="#" id="alogin">{% trans "Login" %}</a></li>
+						{% endif %}
+
+						</form>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-------END HEADER ------>
+<!------ HOME --------->
+
+{% block home %}{% endblock %}
+{% block about_us %}{% endblock %}
+{% block news %}{% endblock %}
+{% block service %}{% endblock %}
+{% block portfolio %}{% endblock %}
+{% block contact %}{% endblock %}
+{% block details %}{% endblock %}
+{% block lscm %}{% endblock %}
+{% block lecca %}{% endblock %}
+<!------ END HOME --------->
+<!------ LOGIN FORM ------->
+
+<div id="id01" class="w3-modal" style="cursor: pointer; display: {% if  error_login = 'error' %} block; {% else %} none;  {% endif %} ">
+  <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px;cursor:auto">
+
+    <div class="w3-center"><br>
+   <span id="w3-x-close" title="Close Modal" class="w3-closebtn w3-hover-text-grey w3-container w3-display-topright w3-xxlarge">×</span>
+     <img src="{% static 'images/img_avatar2.png' %}" alt="Avatar" style="width:40%" class="w3-circle w3-margin-top">
+    </div>
+
+    <div class="w3-container">
+      <div class="w3-section">
+		  <form action="{% url 'userauthenticate' %}" method="post" id="login_form">
+		   {% csrf_token %}
+			  <p style="color:red; font-size:12px;">{% if error_login = 'error' %} {% trans "Username or password not correct" %} {% endif %}</p>
+        <label><b>{% trans "Username" %}</b></label>
+        <input name="username" id="username" class="w3-input w3-border w3-margin-bottom" placeholder="{% trans 'Enter Username' %}" type="text" value="{{ username }}">
+
+        <label><b>{% trans "Password" %}</b></label>
+        <input name="password" id="password" class="w3-input w3-border" placeholder="{% trans 'Enter Password' %}" type="password" value="{{ password }}">
+
+        <button type="submit" id="btn-login" class="w3-btn w3-btn-block w3-green w3-section w3-padding">{% trans "Login" %}</button>
+        <input class="w3-check"  type="checkbox">{% trans "Remember me" %}
+		  </form>
+      </div>
+    </div>
+
+    <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+      <button id="w3-btn-close" type="button" class="w3-btn w3-red">{% trans "Cancel" %}</button>
+		<button id="signin" type="button" class="w3-right w3-btn w3-green">{% trans "Sign up" %}</button>
+
+    </div>
+
+  </div>
+</div>
+<!------ LOGOUT FORM ------->
+
+<div id="id02" class="w3-modal" style="cursor: pointer; display: none;">
+  <div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px;cursor:auto">
+
+    <div class="w3-center"><br>
+   <span id="w3-x-close-signin" title="Close Modal" class="w3-closebtn w3-hover-text-grey w3-container w3-display-topright w3-xxlarge">×</span>
+     <img src="{% static 'images/img_avatar2.png' %}" alt="Avatar" style="width:40%" class="w3-circle w3-margin-top">
+    </div>
+
+    <div class="w3-container">
+      <div class="w3-section">
+		<form action="{% url 'usersignin' %}" method="post" id="login_form_signin">
+			   {% csrf_token %}
+			<!--
+			<label><b>First name</b></label>
+			<input name="firstname-signin" id="firstname-signin" class="w3-input w3-border w3-margin-bottom" placeholder="Enter First name" type="text">
+
+			<label><b>Last name</b></label>
+			<input name="lastname-signin" id="lastname-signin" class="w3-input w3-border w3-margin-bottom" placeholder="Enter Last name" type="text">
+			-->
+			<label><b>{% trans "Username" %}</b></label>
+			<input name="username_signin" id="username_signin" class="w3-input w3-border w3-margin-bottom" placeholder="{% trans 'Enter Username' %}" type="text">
+
+			<label><b>{% trans "Password" %}</b></label>
+			<input name="password_signin" id="password_signin" class="w3-input w3-border" placeholder="{% trans 'Enter Password' %}" type="password" >
+
+			<label><b>{% trans "Re Password" %}</b></label>
+			<input name="re_password_signin" id="re_password_signin" class="w3-input w3-border" placeholder="{% trans 'Enter Password' %}" type="password" >
+
+
+			<label><b>E-mail</b></label>
+			<input name="email_signin" id="email_signin" class="w3-input w3-border" placeholder="{% trans 'Enter E-mail' %}" type="text" >
+
+			<button type="submit" id="btn_login_signin" class="w3-btn w3-btn-block w3-green w3-section w3-padding">{% trans "Sign up" %} </button>
+			<span id="error_message" style="font-size:12px; color:#FF0000;"></span>
+		</form>
+      </div>
+    </div>
+
+    <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+      <button id="w3-btn-close-signin" type="button" class="w3-btn w3-red">{% trans "Cancel" %}</button>
+    </div>
+
+  </div>
+</div>
+
+<!------ FOOTER --------->
+
+<section id="footerSection">
+<div class="container">
+    <footer class="footer well well-small">
+	<div class="row-fluid">
+
+
+	<div class="span3">
+
+		<!-- Current language: {{ LANGUAGE_CODE }} -->
+			<h4>{% trans "VisitUs" %}</h4>
+			<address style="margin-bottom:15px;">
+			<strong><a href="index.php" title="business"><i class=" icon-home"></i> {% trans "Address" %} </a></strong><br>
+				{% trans "AddressTxt" %}<br>
+			</address>
+			{% trans "Phone" %}: <i class="icon-phone-sign"></i> &nbsp; +996 312 881 982 <br>
+			Email: <a href="?contact" title="contact"><i class="icon-envelope-alt"></i> office@glotechsol.com</a><br/>
+			<br/><br/>
+	</div>
+	<div class="span3" style="text-align:center;">
+			<h4>{% trans "QuickLinks" %}</h4>
+			{% if menus %}
+				{% for catmenu in catmenus %}
+					<a href="{{ catmenu.link }}" title="{{ catmenu.name }}">{{ catmenu.name }}</a><br/>
+
+				{% endfor %}
+		    {% endif %}
+	</div>
+<div class="span3">
+	<h4>{% trans "FindUsOn" %}</h4>
+
+	<div style="font-size:2.5em;">
+		<a href="#" role="button" data-toggle="modal" style="display:inline-block; width:1em"> <i class="icon-facebook-sign"> </i> </a>
+		<a href="#" role="button" data-toggle="modal" title="" style="display:inline-block; width:1em"> <i class="icon-twitter-sign"> </i> </a>
+		<a href="#" role="button" data-toggle="modal" style="display:inline-block;width:1em"> <i class="icon-facetime-video"> </i> </a>
+		<a href="#" title="" style="display:inline-block;width:1em"> <i class="icon-google-plus-sign"> </i> </a>
+		<a href="#" role="button" data-toggle="modal" style="display:inline-block;width:1em" > <i class="icon-rss"> </i> </a>
+	</div>
+
+		<div style="text-align: left;">
+		<i class="icon-user"> </i>
+		{% trans "Visits" %} {{ visitors_count }}
+		<br/>
+		<i class="icon-eye-open"></i>
+		{% trans "Views" %}
+		{{ Views.views_count__sum }}
+		<br/>
+		{% for visit in all_visitors %}
+			 <div class="flag flag-{{ visit.country_code|lower }}" title="{{ visit.country_name }}" > </div>
+		{% endfor %}
+		</address>
+
+    </div>
+</div></div>
+	<p style="padding:18px 0 44px">&copy; {% now "Y" as current_year %} {{ current_year }} {% trans "All right reserved" %} </p>
+	</footer>
+    </div><!-- /container -->
+</section>
+
+<!------ END FOOTER --------->
+
+
+<a href="#" class="btn" style="position: fixed; bottom: 38px; right: 10px; display: none; " id="toTop"> <i class="icon-arrow-up"></i>{% trans "GoToTop" %}</a>
+{% endlanguage %}
+{% endfor %}
+<!-- Javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+    <script type="text/javascript" src="{% static 'js/widgets.js' %}"></script>
+	<script src="{% static 'js/jquery-1.8.3.min.js' %}"></script>
+
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap-tooltip.js' %}"></script>
+    <script src="{% static 'js/bootstrap-popover.js' %}"></script>
+	<script src="{% static 'js/business_ltd_1.0.js' %}"></script>
+	<script src="{% static 'tessa/script.js' %}"></script>
+    <script src="{% static 'lightbox/dist/js/lightbox-plus-jquery.min.js' %}"></script>
+
+
+  <!-- jQuery Library  -->
+  <script src="{% static 'sider/js/jquery.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/style-table.js' %}"></script>
+  <!-- bootstrap js file -->
+  <script src="{% static 'sider/js/bootstrap.min.js' %}"></script>
+  <!-- slick slider js file -->
+  <script src="{% static 'sider/js/slick.min.js' %}"></script>
+  <!-- for news slider -->
+  <script src="{% static 'sider/js/jquery.newsTicker.min.js' %}"></script>
+  <!-- custom js file include -->
+  <script src="{% static 'sider/js/custom.js' %}"></script>
+
+
+
+<span id="themesBtn"></span>
+</body>
+</html>

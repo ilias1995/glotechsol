@@ -1,0 +1,88 @@
+{% extends 'index.html' %}
+
+{% block about_us %}
+{% load staticfiles %}
+
+
+
+<section id="bannerSection" style="background:url({% static 'images/banner/aboutus.png' %}) no-repeat center center #000;">
+	<div class="container" >	
+		<h1 id="pageTitle">
+		{% load i18n %}
+		{% get_current_language as LANGUAGE_CODE %}
+		{% get_available_languages as LANGUAGES %}
+
+		{% for lang in langs %}
+		{% language lang.language %}
+
+		{% get_current_language as LANGUAGE_CODE %}
+		<!-- Current language: {{ LANGUAGE_CODE }} -->
+
+		{% trans "AboutUs" %}
+		{% endlanguage %}
+		{% endfor %}
+		<span class="pull-right toolTipgroup">
+			<a href="#" data-placement="top" data-original-title="Find us on via facebook"><img style="width:45px" src="{% static 'images/facebook.png' %}" alt="facebook" title="facebook"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via twitter"><img style="width:45px" src="{% static 'images/twitter.png' %}" alt="twitter" title="twitter"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via youtube"><img style="width:45px" src="{% static 'images/youtube.png' %}" alt="youtube" title="youtube"></a>
+		</span>
+		</h1>
+	</div>
+</section> 
+<!-- Page banner end -->
+<section id="bodySection">	
+	<div class="container">	
+	<div class="row"><br/>
+		<!-- English version -->
+		{% for language in languages %}
+			{% if language.id == 1 %}
+			<div class="span3">
+				<div class="well well-small">
+					<h3 class="zagalovok">Welcome!</h3>
+					We specialise in web design, web development and graphic design for different Desktop, Mobiles and Tablets.<br/><br/>
+
+					We recently introduce cheapest and best mobile web design packages in our services. This is most popular and beneficial for everyone.
+					 If you are looking for upgrade your website computable in mobiles and tablets, Even if you don't have any website,
+					then just remember us and makes your dream success.<br/><strong> We are giving the best solution for your best value of money.</strong>
+				</div>
+			</div>
+			{% endif %}
+			<!-- end english version -->
+			<!-- russian version -->
+			{% if language.id == 2 %}
+			<div class="span3">
+				<div class="well well-small">
+					<h3>Добро пожаловать!</h3>
+					Мы специализируемся на веб-дизайне, разработка сайтов, графического дизайне для различных настольных, мобильных телефонов и планшетных ПК.<br><br>
+
+					Мы можем делать самые оптимальные пакеты web-дизайна.<br><strong> Если вы ищете возможности обнавить наилучшему образом
+	свой веб-сайт мобильных телефонах и планшетах мы найдем для вас лучшое решение.	 Мы даем лучшее решение для вашей лучшей стоимости денег.</strong>
+				</div>
+			</div>
+			{% endif %}
+		{% endfor %}
+		<!-- end russian version -->
+
+		<div class="span9">
+		<div class="well well-small" style="text-align:left">
+			<h3>Global Technology Solutions</h3>
+			<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="850" height="206" id="gts" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="gts.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><embed src="{% static 'sider/gts.swf' %}" quality="high" bgcolor="#ffffff" width="850" height="206" name="gts" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object></p>
+			{% if about %}
+			{% autoescape off %}
+				{% for about_us in about %}
+					<p>{{ about_us.full_text }}</p>
+				{% endfor %}
+			{% endautoescape%}
+			{% endif %}
+
+		</div>
+		</div>
+		</div>
+	</div>
+</section>
+
+
+{% endblock %}

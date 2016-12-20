@@ -1,0 +1,8 @@
+Django==1.10.3
+django-ckeditor==5.1.1
+django-extensions==1.6.7
+ipaddress==1.0.16
+wxPython==3.0.2.0
+wxPython-common==3.0.2.0
+xmltodict==0.10.2
+
