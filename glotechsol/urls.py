@@ -36,18 +36,10 @@ urlpatterns = [
     url(r'^lecca/(\d+)/$', 'content.views.lecca'),
     url(r'^(?P<error>\w+)/', 'content.views.get_news'),
     url(r'^$', 'content.views.get_news'),
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) +\
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) +\
     static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-if settings.DEBUG:
-    urlpatterns += patterns('',
-            url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
-            url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT})
-    ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) +\
-    static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-
-if settings.DEBUG is False:   #if DEBUG is True it will be served automatically
+if settings.DEBUG:   #if DEBUG is True it will be served automatically
     urlpatterns += patterns('',
             url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
             url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT})

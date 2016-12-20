@@ -2,368 +2,370 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a24b007d-ecf7-4953-b8d5-43acb159c98d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/flags/flags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/lightbox-blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/lightbox-btn-close.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/lightbox-btn-next.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/lightbox-btn-prev.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/lightbox-ico-loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/01-gas-heater-ios-app-icon-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/01-gas-heater-ios-app-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/02-movie-film-icon-app-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/02-movie-film-icon-app.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/03-dino-dominion-ios-app-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/03-dino-dominion-ios-app.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/04-photo-tagger-app-icon-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/04-photo-tagger-app-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/05-air-hockey-app-icon-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/05-air-hockey-app-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/06-reading-rainbow-app-icon-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/06-reading-rainbow-app-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos-2nd/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/01-app-design-iphone-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/01-app-design-iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/02-ios-side-navigation-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/02-ios-side-navigation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/03-share-buttons-ios-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/03-share-buttons-ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/04-profile-screen-iphone-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/04-profile-screen-iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/05-iphone-chat-app-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/05-iphone-chat-app.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/06-traveler-iphone-app-white-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/06-traveler-iphone-app-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/07-twitter-client-dark-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/07-twitter-client-dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/08-iphone-share-app-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/08-iphone-share-app.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/images/photos/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/GTS (2).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/RESENT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/advice-consult.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/avia-consult.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/banner/Clean-Business-Slide-Backgrounds.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/banner/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/banner/aboutus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/banner/blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/banner/contact.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/banner/details.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/banner/portfolio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blockRepeat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blog/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blog/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blog/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blog/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blog/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blog/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/blog/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/bodyBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/busin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/business-consultants.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/business_website_templates_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/business_website_templates_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/business_website_templates_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/business_website_templates_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/business_website_templates_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/business_website_templates_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/business_website_templates_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/business_website_templates_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/carousel/services_dtl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/clients/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/clients/facebookLogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/clients/googleLogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/clients/my_web_solution.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/clients/twitterLogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/consulting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/footerbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3094.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3322.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3337.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3338.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3364.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3387.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3397.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3428.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3432.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3446.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3448.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3482.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3483.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3484.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3496.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3508.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3522.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3524.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/SAM_3526.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3094.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3322.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3337.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3338.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3364.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3387.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3397.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3428.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3432.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3446.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3448.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3482.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3483.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3484.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3496.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3508.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3522.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3524.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3526.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/lscm2016/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08243.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08249.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08251.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08270.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08281.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08324.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08337.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08361.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08428.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08447.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08481.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08483.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08535.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08538.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08542.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08544.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08547.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08549.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08551.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08555.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08557.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08558.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08561.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08562.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08564.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08567.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08569.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08571.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08572.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08575.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08577.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08578.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/headerbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/img180x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/img185x165.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/img64x64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/img_avatar2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/it-sup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo_GTS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/Andre-Kreie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/Denny-Cho.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/Hans.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/LOGO-LCM-blue-244x300.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/LSM-programme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/bg_philosophie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/isled-300x243.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/leaf-ENG.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/lscm-slider/SAM_3526-600x300.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/lscm-slider/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/obraz-300x200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/part-300x187.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/lscm/uzhast-300x200.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/2016-11-04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/20161103_110420.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/20161103_120102.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/DSC08251_TTT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/DSC08270_TTT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/DSC08281_TTT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/DSC08324_TTT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/DSC08481_TTT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/DSC08497_TTT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/KOIKA_Presentation.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/eastern_university_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/eastern_university_sign_contract.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/gts_presentation-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/gts_presentation-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/knu_01.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/knu_02.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/knu_03.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/news/knu_04.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/forms.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/mobil.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/onli.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/pos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/stom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/portfolio/viz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/shadowsReverse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slide-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/1.0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/1.2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/14.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/17.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/header_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/phab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/preview.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/slider/splash_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/smallShadows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/soft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/supply-chain-management.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/tabRepeatInactive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/tabrepeat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lightbox/src/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lightbox/src/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lightbox/src/images/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lightbox/src/images/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/gts.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/20161103_120102.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/2587440.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/add_img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/addbanner_728x90_V1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/eastern_university_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/fancybox_loading@2x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/fancybox_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/fancybox_sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/featured_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/featured_img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/featured_img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/knu_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/news_thumbnail1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/news_thumbnail3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/photograph_img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/photograph_img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/photograph_img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/post_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/post_img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/single_post_img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/slider_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/slider_img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/slider_img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/slider_img4-old.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/slider_img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/slider_next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/slider_prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/socials.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/img/status.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/technology.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/technology_en.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/tessa/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/tessa/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/tessa/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/tessa/images/downArrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/tessa/images/upArrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/css-table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/menu-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/price.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/current/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/flags/flags.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/css/jquery.lightbox-0.5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/js/jquery-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/gallery/js/jquery.lightbox-0.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/business_ltd_1.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.gmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/menu-script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/send_message.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/style-table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/widgets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lightbox/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lightbox/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lightbox/src/css/lightbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/lightbox/src/js/lightbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/js/jquery.newsTicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/js/slick.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/slider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/sider/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/tessa/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/tessa/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/tessa/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/tessa/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/css-table.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/font-awesome-ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/menu-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/price.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/current/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flags/flags.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/flags/flags.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/font/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/font/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/font/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/font/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/css/jquery.lightbox-0.5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/css/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/lightbox-blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/lightbox-btn-close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/lightbox-btn-next.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/lightbox-btn-prev.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/lightbox-ico-loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/01-gas-heater-ios-app-icon-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/01-gas-heater-ios-app-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/02-movie-film-icon-app-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/02-movie-film-icon-app.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/03-dino-dominion-ios-app-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/03-dino-dominion-ios-app.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/04-photo-tagger-app-icon-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/04-photo-tagger-app-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/05-air-hockey-app-icon-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/05-air-hockey-app-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/06-reading-rainbow-app-icon-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/06-reading-rainbow-app-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos-2nd/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/01-app-design-iphone-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/01-app-design-iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/02-ios-side-navigation-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/02-ios-side-navigation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/03-share-buttons-ios-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/03-share-buttons-ios.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/04-profile-screen-iphone-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/04-profile-screen-iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/05-iphone-chat-app-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/05-iphone-chat-app.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/06-traveler-iphone-app-white-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/06-traveler-iphone-app-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/07-twitter-client-dark-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/07-twitter-client-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/08-iphone-share-app-thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/08-iphone-share-app.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/images/photos/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/js/jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/gallery/js/jquery.lightbox-0.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/GTS (2).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/RESENT.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/advice-consult.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/avia-consult.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner/Clean-Business-Slide-Backgrounds.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner/aboutus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner/blog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner/contact.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner/details.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner/portfolio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blockRepeat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/blog/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bodyBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/busin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/business-consultants.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/business_website_templates_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/business_website_templates_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/business_website_templates_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/business_website_templates_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/business_website_templates_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/business_website_templates_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/business_website_templates_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/business_website_templates_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/carousel/services_dtl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/clients/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/clients/facebookLogo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/clients/googleLogo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/clients/my_web_solution.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/clients/twitterLogo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/consulting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/footerbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3094.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3322.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3337.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3338.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3364.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3387.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3397.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3428.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3432.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3446.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3448.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3482.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3483.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3484.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3496.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3508.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3522.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3524.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/SAM_3526.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3094.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3322.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3337.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3338.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3364.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3387.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3397.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3428.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3432.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3446.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3448.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3482.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3483.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3484.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3496.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3508.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3522.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3524.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2015/SAM_3526.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/lscm2016/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08243.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08249.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08251.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08270.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08281.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08324.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08337.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08361.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08428.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08447.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08481.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08483.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08535.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08538.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08542.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08544.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08547.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08549.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08551.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08555.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08557.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08558.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08561.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08562.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08564.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08567.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08569.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08571.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08572.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08575.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08577.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gallery/ttt/DSC08578.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/headerbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/img180x120.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/img185x165.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/img64x64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/img_avatar2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/it-sup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/logo_GTS.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/Andre-Kreie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/Denny-Cho.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/Hans.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/LOGO-LCM-blue-244x300.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/LSM-programme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/bg_philosophie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/isled-300x243.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/leaf-ENG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/lscm-slider/SAM_3526-600x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/lscm-slider/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/obraz-300x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/part-300x187.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/lscm/uzhast-300x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/2016-11-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/20161103_110420.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/20161103_120102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/DSC08251_TTT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/DSC08270_TTT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/DSC08281_TTT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/DSC08324_TTT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/DSC08481_TTT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/DSC08497_TTT.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/KOIKA_Presentation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/eastern_university_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/eastern_university_sign_contract.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/gts_presentation-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/gts_presentation-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/knu_01.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/knu_02.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/knu_03.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/news/knu_04.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio/forms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio/mobil.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio/onli.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio/pos.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio/stom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/portfolio/viz.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/shadowsReverse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slide-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/1.0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/1.2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/header_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/phab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slider/splash_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/smallShadows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/soft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/supply-chain-management.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tabRepeatInactive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tabrepeat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/business_ltd_1.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.gmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/menu-script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/send_message.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/style-table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/widgets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lightbox/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lightbox/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lightbox/src/css/lightbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lightbox/src/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lightbox/src/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lightbox/src/images/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lightbox/src/images/prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/lightbox/src/js/lightbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/gts.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/20161103_120102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/2587440.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/add_img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/addbanner_728x90_V1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/eastern_university_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/fancybox_loading@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/fancybox_sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/featured_img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/featured_img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/featured_img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/knu_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/news_thumbnail1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/news_thumbnail3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/photograph_img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/photograph_img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/photograph_img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/post_img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/post_img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/single_post_img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/slider_img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/slider_img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/slider_img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/slider_img4-old.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/slider_img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/slider_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/slider_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/socials.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/img/status.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/js/jquery.newsTicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/js/slick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/slider.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/technology.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sider/technology_en.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tessa/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tessa/images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tessa/images/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tessa/images/downArrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tessa/images/upArrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tessa/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tessa/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tessa/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/tessa/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/glotechsol/settings.py" afterPath="$PROJECT_DIR$/glotechsol/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/glotechsol/urls.py" afterPath="$PROJECT_DIR$/glotechsol/urls.py" />
     </list>
     <ignored path="website-kufa-version.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -390,8 +392,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/glotechsol/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+            <state relative-caret-position="354">
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="39" selection-end-column="65" />
               <folding>
                 <element signature="e#619#670#0" expanded="true" />
               </folding>
@@ -403,7 +405,7 @@
         <entry file="file://$PROJECT_DIR$/glotechsol/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+              <caret line="127" column="30" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -450,8 +452,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/makefile" />
         <option value="$PROJECT_DIR$/req.txt" />
-        <option value="$PROJECT_DIR$/glotechsol/urls.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/glotechsol/urls.py" />
         <option value="$PROJECT_DIR$/glotechsol/settings.py" />
       </list>
     </option>
@@ -888,7 +890,7 @@
     <frame x="-3" y="27" width="1372" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25757575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25757575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1024,16 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glotechsol/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
-          <folding>
-            <element signature="e#619#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1082,10 +1074,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/glotechsol/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="39" selection-end-column="65" />
+          <folding>
+            <element signature="e#619#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/glotechsol/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+          <caret line="127" column="30" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
           <folding />
         </state>
       </provider>
