@@ -1,4 +1,4 @@
-#!/home/iliyaz/projects/website-kufa-version/senv/bin/python
+#!/root/projects/glotechsol/senv/bin/python
 
 import sys
 import getopt

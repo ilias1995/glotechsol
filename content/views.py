@@ -272,6 +272,6 @@ def getMenu_and_Lang(request):
 
 
 def getLangSession(request):
-    if '0' not in request.session:
+    if '0' not in request.session or request.session['0'] == 0:
         request.session['0'] = 2
     return request.session['0']
