@@ -26,9 +26,9 @@ from django.utils.translation import ugettext_lazy as _
 SECRET_KEY = 'q@4_k4+n#xiy++8$(r33h3z89n6yi(35db99v2d6wd_h)x*x+j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost']
 
 GEOIP_PATH = join(BASE_DIR, 'geolocation')
 
