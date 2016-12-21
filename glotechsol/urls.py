@@ -47,9 +47,9 @@ if settings.DEBUG:
     static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
-if settings.DEBUG is False:   #if DEBUG is True it will be served automatically
-    urlpatterns += patterns('',
-            url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
-            url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT})
-    ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) +\
-    static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# if settings.DEBUG is False:   #if DEBUG is True it will be served automatically
+#     urlpatterns += patterns('',
+#             url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
+#             url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT})
+#     ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) +\
+#     static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
