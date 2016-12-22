@@ -26,7 +26,7 @@ from django.utils.translation import ugettext_lazy as _
 SECRET_KEY = 'q@4_k4+n#xiy++8$(r33h3z89n6yi(35db99v2d6wd_h)x*x+j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -129,7 +129,7 @@ USE_TZ = True
 
 STATIC_URL = '/root/projects/glotechsol/static/'
 MEDIA_URL = '/media/'
-STATIC_ROOT = '/static/'
+STATIC_ROOT = '/root/projects/glotechsol/static'
 
 #STATICFILES_DIRS = [
 #    os.path.join(BASE_DIR, "content/static"),

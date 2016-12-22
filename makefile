@@ -1,7 +1,7 @@
 #!/bin/bash/
 .DEFAULT_GOAL: help
 
-VIRTUALENVDIR := senv
+VIRTUALENVDIR := env
 ACTIVATE := . $(VIRTUALENVDIR)/bin/activate
 VIRTUALENV := virtualenv
 MANAGE := ./manage.py
@@ -33,10 +33,9 @@ check_mig:
 
 .PHONY: base_commad
 base_command:
-	$(VIRTUALENV) -p python3  senv --no-site-packages; \
+	$(VIRTUALENV) -p python3  env --no-site-packages; \
 	$(ACTIVATE); \
-	pip install -r req.txt; \
+	pip install -r requirements.txt; \
 	chmod +x manage.py; \
 	$(MANAGE) migrate; \
-	$(MANAGE) createsuperuser; \
 	$(MANAGE) runserver; \

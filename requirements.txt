@@ -6,7 +6,6 @@ django-extensions==1.6.7
 django-geoip==0.5.2.1
 gunicorn==19.6.0
 ipaddress==1.0.16
-pkg-resources==0.0.0
 requests==2.12.4
 six==1.10.0
 static3==0.7.0
