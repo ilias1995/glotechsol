@@ -206,7 +206,7 @@ def get_client_ip(request):
         ip = x_forwarded_for.split(',')[0]
     else:
         ip = request.META.get('REMOTE_ADDR')
-    return "80.247.32.206"
+    return ip
 
 
 def get_location(request):
