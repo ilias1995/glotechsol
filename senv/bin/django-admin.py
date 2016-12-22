@@ -1,4 +1,4 @@
-#!/root/projects/glotechsol/senv/bin/python3
+#!/home/iliyaz/projects/website-kufa-version/senv/bin/python3
 from django.core import management
 
 if __name__ == "__main__":

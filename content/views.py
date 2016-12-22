@@ -55,7 +55,7 @@ def get_news(request, error=''):
     args['photos'] = photo
     args['username'] = auth.get_user(request).username
     """" *****---- geo location info ----***** """
-   # args.update(getVisitorInfo(request))
+    args.update(getVisitorInfo(request))
     """" *****---- end geo location info ----***** """
     return render_to_response('home.html', args, context_instance=RequestContext(request))
 
@@ -68,7 +68,7 @@ def about_us(request):
     args['about'] = Content.objects.filter(cat_id=4, language=lang, state=1).order_by('-id')
     args['username'] = auth.get_user(request).username
     """" *****---- geo location info ----***** """
-    #args.update(getVisitorInfo(request))
+    args.update(getVisitorInfo(request))
     """" *****---- end geo location info ----***** """
     return render_to_response('about_us.html', args, context_instance=RequestContext(request))
 
@@ -82,7 +82,7 @@ def news(request, content_id):
     args['news'] = Content.objects.filter(id=content_id, language=lang, state=1)
     args['username'] = auth.get_user(request).username
     """" *****---- geo location info ----***** """
-    #args.update(getVisitorInfo(request))
+    args.update(getVisitorInfo(request))
     """" *****---- end geo location info ----***** """
     # ----- get img link from object ---#
     imgs = Content.objects.filter(id=content_id, language=lang, state=1)
@@ -101,7 +101,7 @@ def service(request):
     args['services'] = Content.objects.filter(cat_id=6, language=lang, state=1).order_by('-id')
     args['username'] = auth.get_user(request).username
     """" *****---- geo location info ----***** """
-    #args.update(getVisitorInfo(request))
+    args.update(getVisitorInfo(request))
     """" *****---- end geo location info ----***** """
     return render_to_response('services.html', args, context_instance=RequestContext(request))
 
@@ -114,7 +114,7 @@ def portfolio(request):
     args['porfolios'] = Content.objects.filter(cat_id=7, language=lang, state=1).order_by('-id')
     args['username'] = auth.get_user(request).username
     """" *****---- geo location info ----***** """
-    #args.update(getVisitorInfo(request))
+    args.update(getVisitorInfo(request))
     """" *****---- end geo location info ----***** """
     return render_to_response('portfolio.html', args, context_instance=RequestContext(request))
 
@@ -126,7 +126,7 @@ def lecca(request, content_id):
     args['Lecca'] = Content.objects.filter(id=content_id, state=1)
     args['username'] = auth.get_user(request).username
     """" *****---- geo location info ----***** """
-    #args.update(getVisitorInfo(request))
+    args.update(getVisitorInfo(request))
     """" *****---- end geo location info ----***** """
     return render_to_response('lecca.html', args, context_instance=RequestContext(request))
 
@@ -137,7 +137,7 @@ def contact(request):
     args.update(getMenu_and_Lang(request))
     args['username'] = auth.get_user(request).username
     """" *****---- geo location info ----***** """
-    #args.update(getVisitorInfo(request))
+    args.update(getVisitorInfo(request))
     """" *****---- end geo location info ----***** """
     return render_to_response('contact.html', args, context_instance=RequestContext(request))
 
@@ -152,7 +152,7 @@ def details(request, content_id, menu_id=0):
     args['request'] = request
     args['username'] = auth.get_user(request).username
     """" *****---- geo location info ----***** """
-    #args.update(getVisitorInfo(request))
+    args.update(getVisitorInfo(request))
     """" *****---- end geo location info ----***** """
     return render_to_response('details.html', args, context_instance=RequestContext(request))
 
@@ -211,7 +211,7 @@ def get_client_ip(request):
 
 def get_location(request):
     g = GeoIP()
-    #location = g.country('reserve.kg')
+    # location = g.country('reserve.kg')
     ip = get_client_ip(request)
     location = g.country(ip)
     return location

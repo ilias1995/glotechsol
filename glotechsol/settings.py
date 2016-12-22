@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_geoip',
     'ckeditor',
     'ckeditor_uploader',
     'glotechsol',
@@ -67,8 +68,11 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'django_geoip.middleware.LocationMiddleware',
 
 )
+
+# GEOIP_LOCATION_MODEL = 'localhost.models.Location' # just an example, replace with your own
 
 ROOT_URLCONF = 'glotechsol.urls'
 
