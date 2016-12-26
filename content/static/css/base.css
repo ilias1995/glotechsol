@@ -9,15 +9,15 @@ Need any help for business ltd template? : Contact
 =============================
  */
 /* Needed for animations -----------*/
-body{position:relative; }
+body{position:relative; top:3000px;}
 .wrapper{position:relative}
 .carousel-caption {display:block; top:-1000px; left:4%; padding:1%;bottom:auto;max-width:45%;border-radius:8px;text-align:left}
 #bannerSection{overflow:hidden;}
 #sliderSection{overflow:hidden;}
-#bannerSection h1{position:relative;}
-#headerSection .navbar .pull-right {top: 10px;}
-#bodySection{position:relative; }
-#middleSection{position:relative; height:420px;}
+#bannerSection h1{position:relative; right:-2400px}
+#headerSection .navbar .pull-right {top: 1000px;}
+#bodySection{position:relative; left:-3000px}
+#middleSection{position:relative; top:-800px}
 /* ------------------- */
 a, a:link, a:active, a:hover, img{outline:none;}
 .navbar .brand {font-size: 28px;}
@@ -82,9 +82,14 @@ padding:28px 0;*/
 #clientsSection{padding:44px 0;}
 #clientsSection a{margin:0 8px;}
 #clientsSection a:hover{text-decoration:none}
-#footerSection{background: url(../images/footerbg.png) repeat 0 0; color:#fff; padding:28px 0 0; border-top: 1px solid #FE5214;}
-#footerSection .well{background:none; color:#fff; border:0}
-#footerSection .span3 h4, h5{ color:#fff;}
+#footerSection{
+	/*background: url(../images/footerbg.png) repeat 0 0; */
+	background: #141f3d;
+	color:#EBC161;
+	padding:28px 0 0; border-top: 1px solid #FE5214;}
+#footerSection .well{background:none; color:#EBC161; border:0}
+#footerSection a{color:#EBC161;}
+#footerSection .span3 h4, h5{ color:#EBC161;}
 #footerSection .media, #bodySection .media{text-align:left;}
 #footerSection .media img, #bodySection .media img{border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px; }
 /* Responsive--------------------- */
@@ -112,3 +117,4 @@ float: none}
 #carouselSection .carousel-caption {position: absolute;}
 }
 /* ====================================================== */
+

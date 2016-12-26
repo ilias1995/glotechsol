@@ -78,7 +78,7 @@ def news(request, content_id):
     args = {}
     args.update(csrf(request))
     args.update(getMenu_and_Lang(request))
-    args['news_menu'] = Content.objects.filter(~Q(id=content_id), cat_id=3, language=lang, state=1)
+    args['news_menu'] = Content.objects.filter(~Q(id=content_id), cat_id=3, language=lang, state=1).order_by('-id')
     args['news'] = Content.objects.filter(id=content_id, language=lang, state=1)
     args['username'] = auth.get_user(request).username
     """" *****---- geo location info ----***** """
@@ -157,6 +157,21 @@ def details(request, content_id, menu_id=0):
     return render_to_response('details.html', args, context_instance=RequestContext(request))
 
 
+def lscm_registration(request, content_id, menu_id=0):
+    lang = getLangSession(request)
+    args = {}
+    args.update(csrf(request))
+    args.update(getMenu_and_Lang(request))
+    args['submenus'] = Sub_Menu.objects.filter(cat_id=menu_id)
+    args['details'] = Content.objects.filter(id=content_id, language=lang, state=1)
+    args['request'] = request
+    args['username'] = auth.get_user(request).username
+    """" *****---- geo location info ----***** """
+    args.update(getVisitorInfo(request))
+    """" *****---- end geo location info ----***** """
+    return render_to_response('lscm_registration.html', args, context_instance=RequestContext(request))
+
+
 def userauthenticate(request):
     username = request.POST['username']
     password = request.POST['password']
@@ -211,7 +226,7 @@ def get_client_ip(request):
 
 def get_location(request):
     g = GeoIP()
-    # location = g.country('reserve.kg')
+    #location = g.country('reserve.kg')
     ip = get_client_ip(request)
     location = g.country(ip)
     return location

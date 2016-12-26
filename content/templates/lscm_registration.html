@@ -1,0 +1,46 @@
+{% extends 'index.html' %}
+
+{% block lscm_registration %}
+{% load staticfiles %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+
+{% for lang in langs %}
+{% language lang.language %}
+
+{% get_current_language as LANGUAGE_CODE %}
+<section id="bannerSection" style="background:url({% static 'images/banner/details.png' %}) no-repeat center center #000;">
+	<div class="container">
+		<h1 id="pageTitle">
+			{% for detail in details %}
+					{% autoescape off %}
+						{{ detail.title }}
+					{% endautoescape %}
+			{% endfor %}
+		<span class="pull-right toolTipgroup">
+			<a href="#" data-placement="top" data-original-title="Find us on via facebook"><img style="width:45px" src="{% static 'images/facebook.png' %}" alt="facebook" title="facebook"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via twitter"><img style="width:45px" src="{% static 'images/twitter.png' %}" alt="twitter" title="twitter"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via youtube"><img style="width:45px" src="{% static 'images/youtube.png' %}" alt="youtube" title="youtube"></a>
+		</span>
+		</h1>
+	</div>
+</section>
+<!-- Page banner end -->
+<section id="bodySection"> 	
+	<div class="container">					
+		<div class="row" style="background-color: rgba(0, 0, 0, 0.6);">
+			<!-- Content will be here -->
+				{% for detail in details %}
+					{% autoescape off %}
+						{{ detail.full_text }}
+					{% endautoescape %}
+				{% endfor %}
+			<!-- Content END -->
+  		</div>
+	</div>
+</section>
+{% endlanguage %}
+{% endfor %}
+{% endblock %}
+   

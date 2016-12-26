@@ -89,9 +89,14 @@ ul{
 }
 
 /* Slider */
-.slick-slider { position: relative; display: block; box-sizing: border-box; -moz-box-sizing: border-box; 
+.slick-slider {
+height: 370px;
+margin:0;
+
+position: relative; display: block; box-sizing: border-box; -moz-box-sizing: border-box;
 -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; 
--moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
+-moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent;
+ }
 
 .slick-list { position: relative; overflow: hidden; display: block; margin: 0; padding: 0; }
 .slick-list:focus { outline: none; }
@@ -154,7 +159,7 @@ font-weight: normal; font-style: normal; }
 [dir="rtl"] .slick-next:before { content: "<"; }
 
 /* Dots */
-.slick-slider { margin-bottom: 10px; margin-top: 10px; }
+.slick-slider { margin-bottom: 0px; margin-top: 10px; }
 
 .slick-dots { position: absolute; bottom: -45px; list-style: none; display: block; text-align: center; padding: 0; width: 100%; }
 .slick-dots li { position: relative; display: inline-block; height: 20px; width: 20px; margin: 0 5px; padding: 0; cursor: pointer; }

@@ -12,7 +12,12 @@
 {% get_current_language as LANGUAGE_CODE %}
 <section id="bannerSection" style="background:url({% static 'images/banner/details.png' %}) no-repeat center center #000;">
 	<div class="container">
-		<h1 id="pageTitle">{% trans "Services" %}
+		<h1 id="pageTitle">
+			{% for detail in details %}
+					{% autoescape off %}
+						{{ detail.title }}
+					{% endautoescape %}
+			{% endfor %}
 		<span class="pull-right toolTipgroup">
 			<a href="#" data-placement="top" data-original-title="Find us on via facebook"><img style="width:45px" src="{% static 'images/facebook.png' %}" alt="facebook" title="facebook"></a>
 			<a href="#" data-placement="top" data-original-title="Find us on via twitter"><img style="width:45px" src="{% static 'images/twitter.png' %}" alt="twitter" title="twitter"></a>
@@ -43,7 +48,14 @@
 
 					</ul>
 					{% else %}
-					<img src="http://icomputerdenver.com/wp-content/uploads/2015/04/Network-Security-Vertical-Banner-1.png">
+						{% if catmenus %}
+							<h4>Menu</h4>
+							<ul class="li_menu">
+								{% for catmenu in catmenus %}
+									<li {% if request.GET.active == catmenu.id|stringformat:"d" %}  class="test" {% endif %}><a href="{{ catmenu.link }}?active={{ catmenu.id }}">{{ catmenu.name }}</a>
+									</li>
+								{% endfor %}
+						{% endif %}
 					{% endif %}
 				</div>
 			</div>

@@ -30,23 +30,29 @@
 	{% for new in news %}
 		<div class="">
 			<p><strong>{{ new.title }}</strong></p>
-			<div id="myCarousel" class="carousel slide blogCarousel">
-				<div class="carousel-inner">
-					{% if photos %}
-						{% for photo in photos %}
-							<div  style="text-align:center"  class="item{% if 1 == forloop.counter %} active {% endif %}" >
-								<a href="#" style="display:block; background:url({{ photo }}) no-repeat center center; height:250px; max-height:250px; margin-bottom:18px"></a>
-							</div>
+			{% if new.gallery == True %}
+				<div id="myCarousel" class="carousel slide blogCarousel">
+					<div class="carousel-inner">
+						{% if photos %}
+							{% for photo in photos %}
+								<div  style="text-align:center"  class="item{% if 1 == forloop.counter %} active {% endif %}" >
+									<a href="#" style="display:block; background:url({{ photo }}) no-repeat center center; height:250px; max-height:250px; margin-bottom:18px"></a>
+								</div>
 
-						{% endfor %}
-					{% endif %}
+							{% endfor %}
+						{% endif %}
+					</div>
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
 				</div>
-				<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-				<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-			</div>
-		{% autoescape off %}
-			<div class="img-none">{{ new.full_text }}</div>
-		{% endautoescape %}
+				{% autoescape off %}
+					<div class="img-none">{{ new.full_text }}</div>
+				{% endautoescape off%}
+			{% else %}
+				{% autoescape off %}
+					<div>{{ new.full_text }}</div>
+				{% endautoescape off %}
+			{% endif %}
 	{% endfor %}
 {% endif %}
 </div>

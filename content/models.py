@@ -14,6 +14,7 @@ class Content(models.Model):
     title = models.CharField(max_length=200)
     full_text = RichTextField()
     state = models.BooleanField(default='true')
+    gallery = models.BooleanField(default='true')
     created = models.DateField()
     likes = models.IntegerField(default=0)
     cat_id = models.ForeignKey(Category)

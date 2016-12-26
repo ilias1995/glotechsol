@@ -9,21 +9,24 @@
 		<div class="span8">
           <div class="slick_slider">
             <div class="single_iteam">
-              <a href="single_page.html"> <img src="{% static 'sider/img/slider_img4.jpg' %}" alt="sider/img"></a>
+				<a href=""> <img src="{% static 'sider/img/slider_img4.jpg' %} " alt="sider/img"></a>
+			 </div>
 
-            </div>
-            <div class="single_iteam">
-              <a href="single_page.html"> <img src="{% static 'sider/img/slider_img2.jpg' %}" alt="sider/img"></a>
+			<div class="single_iteam">
+			  <a href=""> <img src="{% static 'sider/img/slider_img2.jpg' %} " alt="sider/img"></a>
+			</div>
 
-            </div>
-            <div class="single_iteam">
-              <a href="single_page.html"> <img src="{% static 'sider/img/slider_img3.jpg' %}" alt="sider/img"></a>
+			<div class="single_iteam">
+			  <a href=""> <img src="{% static 'sider/img/slider_img3.jpg' %} " alt="sider/img"></a>
+			</div>
 
-            </div>
-            <div class="single_iteam">
-              <a href="single_page.html"> <img src="{% static 'sider/img/slider_img1.jpg' %}" alt="sider/img"></a>
+			<div class="single_iteam">
+			  <a href=""> <img src="{% static 'sider/img/slider_img1.jpg' %} " alt="sider/img"></a>
+			</div>
 
-            </div>
+			<div class="single_iteam">
+			  <a href=""> <img src="{% static 'sider/img/poster-lscm-2017.jpg' %} " alt="sider/img"></a>
+			</div>
           </div>
         </div>
 
@@ -40,8 +43,7 @@
 					{% get_current_language as LANGUAGE_CODE %}
 
 					{% trans "LatestNews" %}
-					{% endlanguage %}
-					{% endfor %}
+
 				</span></h2>
 
 				<div class="latest_post_container">
@@ -71,104 +73,114 @@
 					</div>
 
 				</div>
-
-
-
-
-
 			</div>
+			<!-- banner -->
+		<div class="span12">
+					<div class="sp-container">
+								<div class="sp-content">
+									<div class="sp-wrap sp-left">
+										<h2>
+											<span class="sp-top">{% trans "In Bishkek" %} </br> 3 - 4 - 5 {% trans "April" %} </span>
+											<span class="sp-mid">LSCM</span>
+										</h2>
+									</div>
+									<div class="sp-wrap sp-right">
+										<h2>
+											<span class="sp-top">{% trans "International" %} <br/><br/></span>
+											<span class="sp-mid">{% trans "Seminar" %}</span>
+										</h2>
+									</div>
+								</div>
+								<div class="sp-full-banner-home">
+									<h2> 3 - 4 - 5 {% trans "April" %} </h2>
+									<div class="heart">
+										<a href="https://docs.google.com/forms/d/e/1FAIpQLSd8eKkJX5ItWjSBw0YxkQzHQvZpSlLwmimCGOAx27fjb3j6xw/viewform?c=0&w=1">{% trans "Registration" %}</a>
+									</div>
+								</div>
+							</div>
+					</div>
+					<!-- end banner -->
         </div>
 
 	</div>
-
-
 </section>
-
-
-
 <section id="sam">
-
 	<div class="container">
 		<div class="row">
-			<div class="span12">
-				<div class="section_recent">
-				
-				<object id="flash_01" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="120" id="technology" align="middle">
-				<param name="allowScriptAccess" value="sameDomain" />
-				<param name="movie" value="technology.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><embed src="{% static 'sider/technology_en.swf' %}" quality="high" bgcolor="#ffffff" width="950" height="120" name="technology" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-				</object>
-				
-				</div>
-			</div>
-			
 			<div class="span3">
 				<div class="">
 					<a href="index.php?portfolio"><img src="{% static 'images/RESENT.png' %}" alt="bootstrap business templates"></a>
 				</div>
 				<div class="kvadrat">
-					<h4> <span>design</span></h4>
-					<h4> <span>seo</span></h4>
-					<h4> <span>development</span></h4>
-					<h4> <span>consulting</span></h4>
+					<h2> <span>design</span></h2>
+					<h2> <span>seo</span></h2>
+					<h2> <span>development</span></h2>
+					<h2> <span>consulting</span></h2>
 				</div>
 			</div>
 			<!-- EN version -->
 			{% for language in languages %}
 			{% if language.id == 1 %}
-			<div class="span3">
-					<div class="thumbnail" id="main_zag">
-						<h4>SOFTWARE DEVELOPMENT</h4>
-						<a href="/portfolio/"><img src="{% static 'images/soft.png' %}" alt="bootstrap business templates"></a>
-						<h6>We build great software to meet your needs.</h6>
-						<p class="pmain">
-							Weʼve build custom websites
-							POS and ERP systems and other line-of-business tools
-							Whether your requirements include CRM, ERP, POS, inventory management a simple website or a blog, Global Technology Solutions can help.
-						</p>
-						<div class="read-main"><a href="/portfolio/" >Read more</a></div>
-					</div>
-				</div>
+			<div id="main_zag_total">
+
 				<div class="span3">
-					<div class="thumbnail" id="main_zag">
-						<h4>IT SUPPORT</h4>
-						<a href="/details/6/"><img src="{% static 'images/it-sup.png' %}" alt="bootstrap business templates"></a>
-						<h6>Do you have a server that refuses to boot?</h6>
+						<div class="thumbnail" id="main_zag">
+							<h4>SOFTWARE DEVELOPMENT</h4>
+							<a href="/portfolio/"><img src="{% static 'images/soft.png' %}" alt="bootstrap business templates"></a>
+							<h6>We build great software to meet your needs.</h6>
 							<p class="pmain">
-								Is your workstation unable to connect to the Internet?
-								Do you need a backup or disaster recovery strategy?
-								We solve smaller problems, too. Contact us to learn about our technical support packages for businesses of any size.
+								Weʼve build custom websites
+								POS and ERP systems and other line-of-business tools
+								Whether your requirements include CRM, ERP, POS, inventory management a simple website or a blog, Global Technology Solutions can help.
 							</p>
-						<div class="read-main"><a href="/details/6/">Read more</a></div>
+							<p class="read"><a href="/portfolio/" >Read more</a></p>
+						</div>
 					</div>
-				</div>
-				<div class="span3">
-					<div class="thumbnail" id="main_zag">
-						<h4>BUSINESS CONSULTING</h4>
-						<a href="/details/7/"><img src="{% static 'images/busin.png' %}" alt="bootstrap business templates"></a>
-						<h6>Get in touch with us today about improving your business</h6>
-						<p class="pmain">
-							Whether your problem is process development or information management, we have the expertise to solve it.
-							Weʼre also hosting Central Asiaʼs only regional Logistics and Supply Chain Management Conference and Seminar
-						</p>
-						<div class="read-main"><a href="/details/7/">Read more</a></div>
+
+					<div class="span3">
+						<div class="thumbnail" id="main_zag">
+							<h4>IT SUPPORT</h4>
+							<a href="/details/6/"><img src="{% static 'images/it-sup.png' %}" alt="bootstrap business templates"></a>
+							<h6>Do you have a server that refuses to boot?</h6>
+								<p class="pmain">
+									Is your workstation unable to connect to the Internet?
+									Do you need a backup or disaster recovery strategy?
+									We solve smaller problems, too. Contact us to learn about our technical support packages for businesses of any size.
+								</p>
+							<p class="read"><a href="/details/6/" >Read more</a></p>
+						</div>
 					</div>
+
+					<div class="span3">
+						<div class="thumbnail" id="main_zag">
+							<h4>BUSINESS CONSULTING</h4>
+							<a href="/details/7/"><img src="{% static 'images/busin.png' %}" alt="bootstrap business templates"></a>
+							<h6>Get in touch with us today about improving your business</h6>
+							<p class="pmain">
+								Whether your problem is process development or information management, we have the expertise to solve it.
+								Weʼre also hosting Central Asiaʼs only regional Logistics and Supply Chain Management Conference and Seminar
+							</p>
+							<p class="read"><a href="/details/7/" >Read more</a></p>
+						</div>
+					</div>
+
 				</div>
 <!--- ru version -->
 
 			{% elif language.id == 2 %}
 
-
+			<div id="main_zag_total">
 				<div class="span3">
 					<div class="thumbnail" id="main_zag">
 						<h4>РАЗРАБОТКА П.О.</h4>
 						<a href="portfolio.html"><img src="{% static 'images/soft.png' %}" alt="bootstrap business templates"></a>
 						<h6>Мы разрабатываем П.О. по вашему заданию.</h6>
-						<p class="pmain"> Мы создаем веб-сайты, POS и ERP-системы и другие инструменты для бизнеса.
+						<p class="pmain_ru"> Мы создаем веб-сайты, POS и ERP-системы и другие инструменты для бизнеса.
 							Независимо от того, включают ли ваши требования к CRM, ERP, POS, управление запасами простой веб-сайт или блог, Global Technology Solutions поможет вам.
 						</p>
-						<div class="read-main">
-							<a href="/portfolio/">Подробнее</a>
-						</div>
+						<p class="read">
+							<a href="?portfolio">Подробнее</a>
+						</p>
 					</div>
 				</div>
 
@@ -177,11 +189,11 @@
 						<h4>IT ПОДДЕРЖКА</h4>
 							<a href="portfolio.html"><img src="{% static 'images/it-sup.png' %}" alt="bootstrap business templates"></a>
 						<h6>У вас есть сервер, который не загружается?</h6>
-							<p class="pmain">
+							<p class="pmain_ru">
 								Ваш компьютер не может подключиться к Интернету? Вам необходима стратегия резервного копирования или восстановления после аварии?
 								Мы решаем такие задачи тоже. Свяжитесь с нами, чтобы узнать о пакетах услуг технической поддержки для предприятий любого размера.
 							</p>
-						<div class="read-main"><a href="/details/28/">Подробнее</a></div>
+						<p class="read"><a href="?details&amp;itsup">Подробнее</a></p>
 					</div>
 				</div>
 
@@ -190,13 +202,14 @@
 						<h4 style="font-size: 13px;">БИЗНЕС-КОНСУЛЬТИРОВАНИЕ</h4>
 						<a href="portfolio.html"><img src="{% static 'images/busin.png' %}" alt="bootstrap business templates"></a>
 						<h6>Снами ваш бизнес будеть рости.</h6>
-						<p class="pmain"> Если ваша компания замедляется в развитии мы можем проконсултироват
+						<p class="pmain_ru"> Если ваша компания замедляется в развитии мы можем проконсултироват
 							по бизнесу, проектному менеджменту и логистике.Мы ускорим ваш бизнес.
 						</p>
-						<div class="read-main"><a href="/details/29/">Подробнее</a></div>
+						<p class="read"><a href="?details&amp;busin">Подробнее</a></p>
 					</div>
 				</div>
 
+			</div>
 
 			{% endif %}
 			{% endfor %}
@@ -204,5 +217,6 @@
 		</div>
 	</div>
 </section>
-
+{% endlanguage %}
+{% endfor %}
 {% endblock %}

@@ -7,8 +7,8 @@ class ContentAdmin(admin.ModelAdmin):
 
     class Meta():
         db_table = 'content'
-    fields = ['title', 'full_text', 'state', 'created', 'cat_id', 'language']
-    list_display = ['id', 'title', 'state', 'created', 'cat_id', 'likes', 'language']
+    fields = ['title', 'full_text', 'state', 'gallery', 'created', 'cat_id', 'language']
+    list_display = ['id', 'title', 'state', 'gallery', 'created', 'cat_id', 'likes', 'language']
     list_filter = ['cat_id', 'state', 'language']
 
 admin.site.register(Content, ContentAdmin)

@@ -1,60 +1,83 @@
-﻿{% extends 'index.html' %}
-
+﻿﻿{% extends 'index.html' %}
 {% block contact %}
 {% load staticfiles %}
-<section id="mapSection">
-<div id="myMap2" style="height:200px; background:url(https://img-fotki.yandex.ru/get/108497/358181535.0/0_19022b_e8bbc963_L) repeat;">
 
-</div>	
-
-
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+{% for lang in langs %}
+{% language lang.language %}
+{% get_current_language as LANGUAGE_CODE %}
+<!-- Page banner -->
+<section id="bannerSection" style="background:url({% static 'images/banner/contact.png' %}) no-repeat center center #000;">
+	<div class="container" >
+		<h1 id="pageTitle">{% trans "Contact" %}
+      		<span class="pull-right toolTipgroup">
+			<a href="#" data-placement="top" data-original-title="Find us on via facebook"><img style="width:45px" src="{% static 'images/facebook.png' %}" alt="facebook" title="facebook"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via twitter"><img style="width:45px" src="{% static 'images/twitter.png' %}" alt="twitter" title="twitter"></a>
+			<a href="#" data-placement="top" data-original-title="Find us on via youtube"><img style="width:45px" src="{% static 'images/youtube.png' %}" alt="youtube" title="youtube"></a>
+		</span>
+		</h1>
+	</div>
 </section>
+<!-- Page banner end -->
+<section id="bodySection">
+	<div class="container">
+		<div class="row">
 
-<section id="bodySection"> 	
-	<div class="container">					
-	<div class="row" >
 			<div class="span4">
-			{% load i18n %}
-			{% get_current_language as LANGUAGE_CODE %}
-			{% get_available_languages as LANGUAGES %}
-
-			{% for lang in langs %}
-			{% language lang.language %}
-
-			{% get_current_language as LANGUAGE_CODE %}
-
-			<h3> {% trans "Mailing Address" %}  </h3>
-				{% trans "AddressTxt" %} <br/>	<br/>{% trans "ContactTxt" %}
+					<div class="span3">
+						<div class="row">
+							<img src="{% static 'images/IMG-20161219-WA0007.jpg' %}"  class="thumbnail">
+						</div>
+					</div>
+					<div class="span3">
+						<div class="row">
+							<img src="{% static 'images/IMG-20161219-WA0008.jpg' %}"  class="thumbnail">
+						</div>
+					</div>
+					<div class="span3">
+						<div class="row">
+							<img src="{% static 'images/IMG-20161219-WA0012.jpg' %}"  class="thumbnail">
+						</div>
+					</div>
 			</div>
+
 			<div class="span4">
-					<h3> {% trans "Opening Hours" %} </h3>
-					<h5> {% trans "Monday" %}  -  {% trans "Friday" %}</h5>
+				<div class="span3"><br/>
+					<h4> {% trans "Mailing Address" %}  </h4>
+					{% trans "AddressTxt" %} <br/>	<br/>
+					{% trans "ContactTxt" %} <br/><br/>
+				</div>
+				<div class="span3">
+					<h4> {% trans "Opening Hours" %} </h4>
+					<h6> {% trans "Monday" %}  -  {% trans "Friday" %}</h6>
 					08:30 - 17:30pm<br/><br/>
-					<h5>{% trans "Saturday" %} - {% trans "Sunday" %}</h5>
+					<h6>{% trans "Saturday" %} - {% trans "Sunday" %}</h6>
 					{% trans "day off" %}<br/><br/>
-			</div>
-			<div class="span4">
-				<h3>{% trans "Email Us" %}  </h3>
+				</div>
+				<div class="span3">
+					<h4>{% trans "Email Us" %}  </h4>
 				<form class="form-horizontal">
 				<fieldset>
 				  <div class="control-group">
 				      <span id="result" style="font-size: 12px; color: red;"></span>
 					  <input type="text" placeholder="{% trans "name" %}" id="name" class="input-xlarge" required/>
-				   
+
 				  </div>
 				   <div class="control-group">
-				   
+
 					  <input type="email" placeholder="{% trans "email" %}" id="email" class="input-xlarge"/>
-				   
+
 				  </div>
 				   <div class="control-group">
-				   
+
 					  <input type="text" placeholder="{% trans "subject" %}" id="subject" class="input-xlarge"/>
-				  
+
 				  </div>
 				  <div class="control-group">
 					  <textarea rows="4" id="message" class="input-xlarge"></textarea>
-				   
+
 				  </div>
 
 					<button class="btn btn-large" id="send" type="button"> <i class="icon-envelope"></i> {% trans "Send Message" %} </button>
@@ -62,10 +85,28 @@
 			{% endfor %}
 				</fieldset>
 			  </form>
+				</div>
 			</div>
-		</div>
+
+			<div class="span4">
+					<div class="span3">
+						<div class="row">
+							<img src="{% static 'images/IMG-20161219-WA0009.jpg' %}"  class="thumbnail">
+						</div>
+					</div>
+					<div class="span3">
+						<div class="row">
+							<img src="{% static 'images/IMG-20161219-WA0011.jpg' %}"  class="thumbnail">
+						</div>
+					</div>
+					<div class="span3">
+						<div class="row">
+							<img src="{% static 'images/IMG-20161219-WA0013.jpg' %}"  class="thumbnail">
+						</div>
+					</div>
+			</div>
 
 		</div>
+	</div>
 </section>
-
 {% endblock %}
