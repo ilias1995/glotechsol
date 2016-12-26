@@ -23,6 +23,8 @@
 	<link href="{% static 'css/css-table.css' %}" rel="stylesheet" type="text/css">
 	<link href="{% static 'css/menu-style.css' %}" rel="stylesheet" type="text/css">
 	<link href="{% static 'flags/flags.css' %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="{% static 'css/lscm/style-registration-lscm.css' %}">
+	<link href="{% static 'css/banner-style.css' %}" rel="stylesheet" type="text/css">
     <!-- main site css file -->
     <link rel="stylesheet" href="{% static 'lightbox/dist/css/lightbox.min.css' %}">
 	<link href="{% static 'sider/style.css' %}" rel="stylesheet" type="text/css">
@@ -97,6 +99,7 @@
 {% block details %}{% endblock %}
 {% block lscm %}{% endblock %}
 {% block lecca %}{% endblock %}
+{% block lscm_registration %}{% endblock %}
 <!------ END HOME --------->
 <!------ LOGIN FORM ------->
 
@@ -196,8 +199,9 @@
 			<strong><a href="index.php" title="business"><i class=" icon-home"></i> {% trans "Address" %} </a></strong><br>
 				{% trans "AddressTxt" %}<br>
 			</address>
-			{% trans "Phone" %}: <i class="icon-phone-sign"></i> &nbsp; +996 312 881 982 <br>
-			Email: <a href="?contact" title="contact"><i class="icon-envelope-alt"></i> office@glotechsol.com</a><br/>
+			{% trans "Phone" %}: <i class="icon-phone-sign"></i> &nbsp; +996 312 881 982 <br/>
+			{% trans "Mobile" %}: <i class="icon-phone-sign"></i>&nbsp; +996 551 442 488 <br/>
+			Email: <a href="/contact/" title="contact"><i class="icon-envelope-alt"></i>&nbsp; office@glotechsol.com</a><br/>
 			<br/><br/>
 	</div>
 	<div class="span3" style="text-align:center;">
@@ -235,7 +239,7 @@
 
     </div>
 </div></div>
-	<p style="padding:18px 0 44px">&copy; {% now "Y" as current_year %} {{ current_year }} {% trans "All right reserved" %} </p>
+	<p style="padding:18px 0 44px;color:#EBC161; font-size: 14px;">&copy; {% now "Y" as current_year %} {{ current_year }} {% trans "All right reserved" %} </p>
 	</footer>
     </div><!-- /container -->
 </section>
