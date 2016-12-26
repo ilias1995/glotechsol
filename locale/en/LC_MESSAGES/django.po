@@ -39,11 +39,17 @@ msgstr "Address"
 msgid "AddressTxt"
 msgstr "125/1, Toktogul Street, Bishkek, Kyrgyzstan"
 
+msgid "Contact"
+msgstr "Contact"
+
 msgid "ContactTxt"
-msgstr "office@glotechsol.com ﻿+996(312)88-19-82"
+msgstr "office@glotechsol.com ﻿+996(312)88-19-82 +996(551)44-24-88"
 
 msgid "Phone"
 msgstr "Phone"
+
+msgid "Mobile"
+msgstr "Mobile"
 
 msgid "QuickLinks"
 msgstr "Quick Links"
@@ -211,6 +217,20 @@ msgid "Lecca"
 msgstr "Logistics Excellence Centre in Central Asia"
 
 
+msgid "Seminar"
+msgstr "Seminar"
+
+msgid "April"
+msgstr "April"
+
+msgid "Registration"
+msgstr "Registration"
+
+msgid "In Bishkek"
+msgstr "In Bishkek"
+
+msgid "International"
+msgstr "International"
 
 
 

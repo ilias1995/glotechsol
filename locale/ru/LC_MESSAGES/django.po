@@ -42,11 +42,17 @@ msgstr "Адрес"
 msgid "AddressTxt"
 msgstr "ул. Токтогул 125/1, Бишкек, Кыргызстан"
 
+msgid "Contact"
+msgstr "Контакты"
+
 msgid "ContactTxt"
-msgstr "office@glotechsol.com ﻿+996(312)88-19-82"
+msgstr "office@glotechsol.com ﻿+996(312)88-19-82 +996(551)44-24-88"
 
 msgid "Phone"
 msgstr "Тел."
+
+msgid "Mobile"
+msgstr "Моб."
 
 msgid "QuickLinks"
 msgstr "Быстрые ссылки"
@@ -212,3 +218,18 @@ msgstr "Просмотры"
 
 msgid "Lecca"
 msgstr "Logistics Excellence Centre in Central Asia"
+
+msgid "Seminar"
+msgstr "Семинар"
+
+msgid "April"
+msgstr "Апрель"
+
+msgid "Registration"
+msgstr "Регистрация"
+
+msgid "In Bishkek"
+msgstr "В Бишкеке"
+
+msgid "International"
+msgstr "Международный"
